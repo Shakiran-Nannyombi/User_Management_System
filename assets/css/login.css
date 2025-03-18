@@ -1,0 +1,94 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0A1F33;
+    gap: 50px; /* Adds space between form and image */
+}
+
+/* Left Section (Form) */
+.form-section {
+    width: 40%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #95d6e8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0A1F33;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #167792;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    background: #167792;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background: white;
+    color: black;
+}
+
+/* Right Section (Image) */
+.image-section {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    width: 100%; /* Make image take full width of its container */
+    height: auto;
+    object-fit: cover;
+}
+
+a {
+    color: #167792;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+}
+

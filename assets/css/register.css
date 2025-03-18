@@ -1,0 +1,96 @@
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} */
+
+/* Full Page Background */
+body {
+    background:#0A1F33;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the container holding the image and form */
+.form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; /* Full height */
+    padding: 20px;
+}
+
+/* Style for the image container */
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form-image {
+    width: 100%; /* Make image take full width of its container */
+    height: auto;
+    object-fit: cover;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+    color: #0A1F33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Style for the form container */
+.form-container {
+    flex: 1.5;
+    max-width: 500px; /* Limit the width of the form */
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #95d6e8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style for form elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #167792;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #167792;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: black;
+}
